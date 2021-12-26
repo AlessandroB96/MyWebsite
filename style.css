@@ -8,6 +8,7 @@
 body {
     background-image: url("./bkgrnd.jpg");
     background-size: cover;
+    background-position: 40%;
      
 
 }
@@ -79,20 +80,52 @@ a:hover {
 
 /* ARTICLE CONTENTS IN THE BODY */
 
-.about-me {
+.about-me , .experience , .projects  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url();
+    text-align: center;
 }
 
 .banner {
     background-color: wheat;
     border-radius: 20px;
-    
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);;
     
 }
 
+.banner h1 {
+    font-size: 30px;
+}
+
+.banner p {
+    font-size: 20px;
+}
+
+.banner b {
+    font-style: italic;
+    font-size:25px;
+}
+
+
+
+
+.contact {
+    background-color:#B3A97B;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);;
+    max-height: 100%;
+}
+
+.contact-tag {
+    
+}
+
+.love {
+    
+}
 
 
 
