@@ -1,6 +1,8 @@
 * {
     font-family: 'Roboto' , sans-serif ;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
     
    
   }
@@ -25,7 +27,7 @@ body {
     align-items: center ;
     justify-content: center ;
     justify-content: space-around;
-    margin: auto 500px auto 500px;
+    margin: auto 460px auto 460px;
 }
 
 header {
@@ -69,7 +71,7 @@ a:hover {
 
 .pfp {
     border-radius: 30%;
-    width: 50%;
+    width: 61%;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);;
 }
 
@@ -138,11 +140,11 @@ a:hover {
 }
 
 .contact {
-    background-color:#B3A97B;
+    background-color: rgb(94, 76, 76);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-top: 20px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
     max-height: 100%;
 }
 
@@ -152,8 +154,8 @@ a:hover {
 }
 
 .cards {
-    text-align: center;
     font-weight: bold;
+    margin: 20px 
 }
 .project1 , .project2 , .project3 , .project4 {
     display: flex;
@@ -161,28 +163,39 @@ a:hover {
     background-image: url("./black-pattern.png");
     color: white;
     border-radius: 20px;
-    margin: 20px 60px 60px 20px; 
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);;
+    margin: 10px 60px 60px 20px; 
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);;
     padding: 10px;
     min-width: 200px;
     min-height: 200px;
 }
 
-.contact-tag {
-    
+li {
+    font-size: 22px;
+}
+.contact {
+    display: flex;
+    font-size: 30px;
+    align-items: center;           /*Places contact me flex box and adjacent flox box on the same line vertically*/
+    color: whitesmoke;
+    font-weight: bolder;
+    justify-content: space-around;
+}
+
+#contact-tag {
+    display: flex;
+    margin-left: 0px;
 }
 
 .love {
-    
+
 }
 
 .solid {
-    border-top: 3px solid black;
+    border-top: 4px solid black;
 }
 
-.project1  {
-    background-color: black;
-}
+
 
 
 
