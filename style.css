@@ -160,7 +160,7 @@ a:hover {
 
 .cards {
     font-weight: bold;
-    margin: 20px;
+    margin: 20px;  
 }
 
 .project1 , .project2 , .project3 , .project4 {
@@ -173,9 +173,18 @@ a:hover {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
     padding: 10px;
     min-width: 200px;
-    min-height: 200px;
+    min-height: 200px;                 /*Allows for project cards to have the same size and allow text insde to wrap*/
+    max-width: 200px;
+    max-height: 200px;
     justify-content: space-around;
     align-items: center;
+}
+
+.project1 {
+    background-image: url("./hero-bg.jpg");     /*Since the first project card is run buddy, we can differentiate it from the placeholder background. Cascading sheets, updates background*/
+    background-position: 75% -20%;
+    border: 5px solid black;
+    border-radius: 20px;
 }
 
 li {
@@ -250,5 +259,12 @@ li {
 
 .btn:hover {
     opacity: 80%;
+    
+
+}
+
+#hoverbig:hover {
+    transform: scaleY(1.1);
+    transform-origin: center;
 }
 
