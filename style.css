@@ -11,8 +11,6 @@ body {
     background-image: url("./bkgrnd.jpg");
     background-size: cover;
     background-position: 100%;
-     
-
 }
 
 
@@ -203,14 +201,6 @@ li {
     justify-content: space-around;
 }
 
-#contact-tag {
-  
-}
-
-.love {
-
-}
-
 .solid {
     border-top: 4px solid black;
 }
@@ -268,3 +258,185 @@ li {
     transform-origin: center;
 }
 
+
+/*MEDIA QUERIES*/
+
+   @media screen and (max-width: 1221px) {
+    .menu-items {
+        display: flex; 
+        flex-wrap: flex;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center ;
+        justify-content: center ;
+        justify-content: space-around;
+        margin: auto 250px auto 250px;
+    }
+
+ @media screen and (max-width: 980px) {
+    .menu-items {
+        display: flex; 
+        flex-wrap: flex;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center ;
+        justify-content: center ;
+        justify-content: space-around;
+        margin: auto 150px auto 150px;
+    }
+    
+    .pfp {
+        border-radius: 30%;
+        width: 100%;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .banner {
+        max-width: 980px;
+    }
+
+    .about-me-content {
+        margin-top: 20px;
+    } 
+
+    .projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .project1 , .project2 , .project3 , .project4 {
+        justify-content: center;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .menu-items {
+        display: flex; 
+        flex-wrap: flex;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center ;
+        justify-content: center ;
+        justify-content: space-around;
+        margin: auto 60px auto 60px;
+    }
+
+    .pfp {
+        border-radius: 30%;
+        width: 100%;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .banner {
+        max-width: 768px;
+    }
+
+    .about-me-content {
+        margin: auto 60px auto 60px;
+    } 
+    
+    .experience-content {
+        margin: auto 23px auto 23px;
+    }
+
+    #projects-tag {
+        margin: 60px 50px 2px 20px;
+    }
+
+    .project1 , .project2 , .project3 , .project4 {
+        margin: 40px 32px 40px 32px; 
+    }
+
+    .project1 , .project2 , .project3 , .project4 , .about-me , .experience , .projects {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    
+
+    .love , #contact-tag {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    
+    .menu-items {
+        display: flex; 
+        flex-wrap: flex;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center ;
+        justify-content: center ;
+        justify-content: space-around;
+        margin: auto;
+    }
+    
+    
+    .pfp {
+        border-radius: 30%;
+        width: 100%;
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .banner {
+        max-width: 575px;
+    }
+
+    .project1 , .project2 , .project3 , .project4 {
+        margin: 40px 32px 40px 32px; 
+    }
+
+    .project1 , .project2 , .project3 , .project4 , .about-me , .experience , .projects {
+        display: flex;
+        flex-direction: column;
+
+    }
+    footer {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+   
+    footer>* {
+        flex: 1 1 400px;
+    }
+
+    #contact-content {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #contact-content>* {
+        flex: 1 1 200px;
+    }
+
+    .gmail {
+        max-width: 10%;
+    }
+
+    .about-me-content , .experience-content {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+  }
+
+   }
