@@ -108,6 +108,7 @@ a:hover {
     flex-wrap: wrap;
     text-align: left;
     margin-right: 100px;
+    margin-top: 40px;
 
 }
 .experience-content {
@@ -184,6 +185,7 @@ a:hover {
     background-position: 75% -20%;
     border: 5px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .project2 {
@@ -191,12 +193,14 @@ a:hover {
     background-position: 50% -200%;             /*Positions background where the people in it are gathering paperwork*/
     border: 5px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .project3 {
     background-image: url("./git-it-done.png");
     background-size: 125%;
     border: 5px solid black;
+    cursor: pointer;
 
 }
 
@@ -205,6 +209,7 @@ a:hover {
     background-size: 150%;
     background-position: 48% 60%;
     border: 5px solid black;
+    cursor: pointer;
 
 }
 
@@ -214,6 +219,7 @@ a:hover {
     background-position: 48% 120%;
     border: 5px solid black;
     color: black;
+    cursor: pointer;
 }
 
 .project6 {
@@ -222,6 +228,7 @@ a:hover {
     background-position: 60% 120%;
     border: 5px solid black;
     color: black;
+    cursor: pointer;
 }
 
 li {
