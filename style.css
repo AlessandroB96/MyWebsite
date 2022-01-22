@@ -162,7 +162,7 @@ a:hover {
     margin: 20px;  
 }
 
-.project1 , .project2 , .project3 , .project4 {
+.project1 , .project2 , .project3 , .project4 , .project5 , .project6 {
     display: flex;
     flex-wrap: wrap;
     background-image: url("./black-pattern.png");
@@ -191,6 +191,37 @@ a:hover {
     background-position: 50% -200%;             /*Positions background where the people in it are gathering paperwork*/
     border: 5px solid black;
     border-radius: 20px;
+}
+
+.project3 {
+    background-image: url("./git-it-done.png");
+    background-size: 125%;
+    border: 5px solid black;
+
+}
+
+.project4 {
+    background-image: url("./taskmasterpro.png");
+    background-size: 130%;
+    background-position: 48% 60%;
+    border: 5px solid black;
+
+}
+
+.project5 {
+    background-image: url("./passgenerator.png");
+    background-size: 110%;
+    background-position: 48% 120%;
+    border: 5px solid black;
+    color: black;
+}
+
+.project6 {
+    background-image: url("./codequiz.png");
+    background-size: 140%;
+    background-position: 60% 120%;
+    border: 5px solid black;
+    color: black;
 }
 
 li {
@@ -229,6 +260,7 @@ ul {
     margin-left: auto;
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%); 
+    cursor: pointer;
    
 }
 
@@ -237,6 +269,7 @@ ul {
     height:auto;
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%);
+    cursor: pointer;
     
     
   
@@ -343,7 +376,7 @@ ul {
 
     }
 
-    .project1 , .project2 , .project3 , .project4 {
+    .project1 , .project2 , .project3 , .project4, .project5, .project6 {
         justify-content: center;
     }
 
@@ -522,4 +555,5 @@ ul {
         margin: 60px 17px 2px 20px;
     }
 
+}
 }
