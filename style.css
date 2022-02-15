@@ -163,7 +163,7 @@ a:hover {
     margin: 20px;  
 }
 
-.project1 , .project2 , .project3 , .project4 , .project5 , .project6 , .project7 , .project8 {
+.project1 , .project2 , .project3 , .project4 , .project5 , .project6 , .project7 , .project8 , .project9 {
     display: flex;
     flex-wrap: wrap;
     background-image: url("./images/black-pattern.png");
@@ -249,6 +249,15 @@ a:hover {
     cursor: pointer;
 }
 
+.project9 {
+    background-image: url("./images/node.png");
+    background-size: 145%;
+    background-position: 0% 120%;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
+
 li {
     font-size: 20px;
 }
@@ -274,9 +283,7 @@ ul {
 }
 
 #contact-content {
-  
-  margin: 10px 10px 10px 10px; 
-
+    margin: 10px 10px 10px 10px; 
 }
 
 .github {
@@ -286,7 +293,7 @@ ul {
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%); 
     cursor: pointer;
-   
+
 }
 
 .LI {
@@ -297,7 +304,7 @@ ul {
     cursor: pointer;
     
     
-  
+
 }
 
 .LI:hover , .gmail:hover , .github:hover {
@@ -347,7 +354,7 @@ ul {
 
 
 
- @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     .menu-items {
         display: flex; 
         flex-wrap: flex;
@@ -488,7 +495,7 @@ ul {
         text-align: center;
     }
 
-   
+
     footer>* {
         flex: 1 1 400px;
     }
@@ -512,10 +519,10 @@ ul {
         margin-right: 30px;
     }
 
-  }
+}
 
 
-   @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .menu-items {
         display: flex;
         flex-wrap: wrap;
