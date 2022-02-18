@@ -8,7 +8,7 @@
   }
 
 body {
-    background-image: url("./bkgrnd.jpg");
+    background-image: url("./images/bkgrnd.jpg");
     background-size: cover;
     background-position: 100%;
 }
@@ -90,7 +90,7 @@ a:hover {
 #about-me-tag , #experience-tag , #projects-tag {
     display: flex;
     justify-content: space-around;
-    background-image: url("./black-pattern.png");
+    background-image: url("./images/black-pattern.png");
     color: white;
     text-align: center;
     border-radius: 15px;
@@ -122,7 +122,7 @@ a:hover {
 
 
 .banner {
-    background-image: url(./pattern-bg.png);
+    background-image: url(./images/pattern-bg.png);
     border-radius: 20px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);;
 }
@@ -163,10 +163,10 @@ a:hover {
     margin: 20px;  
 }
 
-.project1 , .project2 , .project3 , .project4 , .project5 , .project6 , .project7 , .project8 {
+.project1 , .project2 , .project3 , .project4 , .project5 , .project6 , .project7 , .project8 , .project9, .project10, .project11 {
     display: flex;
     flex-wrap: wrap;
-    background-image: url("./black-pattern.png");
+    background-image: url("./images/black-pattern.png");
     color: white;
     border-radius: 20px;
     margin: 40px 32px 40px 32px; 
@@ -181,7 +181,7 @@ a:hover {
 }
 
 .project1 {
-    background-image: url("./hero-bg.jpg");     /*Since the first project card is run buddy, we can differentiate it from the placeholder background. Cascading sheets, updates background*/
+    background-image: url("./images/hero-bg.jpg");     /*Since the first project card is run buddy, we can differentiate it from the placeholder background. Cascading sheets, updates background*/
     background-position: 75% -20%;
     border: 5px solid black;
     border-radius: 20px;
@@ -189,7 +189,7 @@ a:hover {
 }
 
 .project2 {
-    background-image: url("./Mock-up.png");     /*Since the first project card is run buddy, we can differentiate it from the placeholder background. Cascading sheets, updates background*/
+    background-image: url("./images/Mock-up.png");     /*Since the first project card is run buddy, we can differentiate it from the placeholder background. Cascading sheets, updates background*/
     background-position: 50% -200%;             /*Positions background where the people in it are gathering paperwork*/
     border: 5px solid black;
     border-radius: 20px;
@@ -197,7 +197,7 @@ a:hover {
 }
 
 .project3 {
-    background-image: url("./git-it-done.png");
+    background-image: url("./images/git-it-done.png");
     background-size: 125%;
     border: 5px solid black;
     cursor: pointer;
@@ -205,7 +205,7 @@ a:hover {
 }
 
 .project4 {
-    background-image: url("./taskmasterpro.png");
+    background-image: url("./images/taskmasterpro.png");
     background-size: 150%;
     background-position: 48% 60%;
     border: 5px solid black;
@@ -214,7 +214,7 @@ a:hover {
 }
 
 .project5 {
-    background-image: url("./passgenerator.png");
+    background-image: url("./images/passgenerator.png");
     background-size: 110%;
     background-position: 48% 120%;
     border: 5px solid black;
@@ -223,7 +223,7 @@ a:hover {
 }
 
 .project6 {
-    background-image: url("./codequiz.png");
+    background-image: url("./images/codequiz.png");
     background-size: 140%;
     background-position: 60% 120%;
     border: 5px solid black;
@@ -232,7 +232,7 @@ a:hover {
 }
 
 .project7 {
-    background-image: url("./conch.png");
+    background-image: url("./images/conch.png");
     background-size: 115%;
     background-position: 60% 120%;
     border: 5px solid black;
@@ -241,13 +241,42 @@ a:hover {
 }
 
 .project8 {
-    background-image: url("./workday.png");
+    background-image: url("./images/workday.png");
     background-size: 320%;
     background-position: 73% 120%;
     border: 5px solid black;
     color: black;
     cursor: pointer;
 }
+
+.project9 {
+    background-image: url("./images/node.png");
+    background-size: 145%;
+    background-position: 0% 120%;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.project10 {
+    background-image: url("./images/readmepic.png");
+    background-size: 200%;
+    background-position: 0% 120%;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.project11 {
+    background-image: url("./images/jestRPG.png");
+    background-size: 230%;
+    background-position: 0% 120%;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+
 
 li {
     font-size: 20px;
@@ -274,9 +303,7 @@ ul {
 }
 
 #contact-content {
-  
-  margin: 10px 10px 10px 10px; 
-
+    margin: 10px 10px 10px 10px; 
 }
 
 .github {
@@ -286,7 +313,7 @@ ul {
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%); 
     cursor: pointer;
-   
+
 }
 
 .LI {
@@ -297,7 +324,7 @@ ul {
     cursor: pointer;
     
     
-  
+
 }
 
 .LI:hover , .gmail:hover , .github:hover {
@@ -347,7 +374,7 @@ ul {
 
 
 
- @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     .menu-items {
         display: flex; 
         flex-wrap: flex;
@@ -488,7 +515,7 @@ ul {
         text-align: center;
     }
 
-   
+
     footer>* {
         flex: 1 1 400px;
     }
@@ -512,10 +539,10 @@ ul {
         margin-right: 30px;
     }
 
-  }
+}
 
 
-   @media screen and (max-width: 575px) {
+@media screen and (max-width: 575px) {
     .menu-items {
         display: flex;
         flex-wrap: wrap;
