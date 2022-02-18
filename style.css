@@ -163,7 +163,7 @@ a:hover {
     margin: 20px;  
 }
 
-.project1 , .project2 , .project3 , .project4 , .project5 , .project6 , .project7 , .project8 , .project9 {
+.project1 , .project2 , .project3 , .project4 , .project5 , .project6 , .project7 , .project8 , .project9, .project10, .project11 {
     display: flex;
     flex-wrap: wrap;
     background-image: url("./images/black-pattern.png");
@@ -257,6 +257,26 @@ a:hover {
     color: black;
     cursor: pointer;
 }
+
+.project10 {
+    background-image: url("./images/readmepic.png");
+    background-size: 200%;
+    background-position: 0% 120%;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.project11 {
+    background-image: url("./images/jestRPG.png");
+    background-size: 230%;
+    background-position: 0% 120%;
+    border: 5px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+
 
 li {
     font-size: 20px;
