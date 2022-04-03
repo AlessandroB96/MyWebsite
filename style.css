@@ -301,6 +301,7 @@ a:hover {
 
 li {
     font-size: 20px;
+    font-weight: bolder;
 }
 
 ul {
@@ -309,7 +310,7 @@ ul {
 
 .exp-title {
     font-style: italic;
-
+    font-weight: bolder;
 }
 .contact {
     display: flex;
