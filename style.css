@@ -397,8 +397,9 @@ ul {
 } */
 
 #hoverbig:hover {
-    transform: scaleY(1.1);
+    transform: scale(1.1,1.1);
     transform-origin: center;
+    transition: 0.5s;
 }
 
 
