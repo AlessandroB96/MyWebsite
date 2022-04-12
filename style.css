@@ -37,7 +37,7 @@ header {
 a {
     background-image: linear-gradient(
       to right,
-      #38d4ad,
+      #885239,
       #000000 50%,
       #000 50%
     );
@@ -53,7 +53,8 @@ a {
   
   a:before {
     content: '';
-    background: #18c08e;
+    background: #864332b2;
+    border-radius: 3px;
     display: block;
     position: absolute;
     bottom: -3px;
