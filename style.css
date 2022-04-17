@@ -410,7 +410,7 @@ ul {
 }
 
 .LI:hover , .gmail:hover , .github:hover {
-    opacity: 60%
+    opacity: 60%;
 }
 
 .gmail {
@@ -419,6 +419,7 @@ ul {
     height:auto;
     filter: drop-shadow(1px 0px 0px black);
     filter: invert(100%);
+    cursor: pointer;
 }
 
 .love {
