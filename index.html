@@ -16,19 +16,19 @@
 <header>
 <ul class="menu-items"> 
     <li>
-        <a href="#about-me">about me</a>
+        <a href="#about-me" class="nav">about me</a>
     </li>
     <li>
-        <a href="#skills">skills</a>
+        <a href="#skills" class="nav">skills</a>
     </li>
     <li>
-        <a href="#experience">experience</a>
+        <a href="#experience" class="nav">experience</a>
     </li>
     <li>
-        <a href="#projects">projects</a>
+        <a href="#projects" class="nav">projects</a>
     </li>
     <li>
-        <a href="#contact">contact info</a>
+        <a href="#contact" class="nav">contact info</a>
     </li>  
 </ul>
 </header>
@@ -215,33 +215,41 @@
 </body>
 
 <footer class="contact" id="contact">
-        <section id="contact-tag">
-            <h1>Contact Me</h1>
-        </section>
 
         <section class="love">
-            <p>Made with 🤎 in Brooklyn :) </p>
+            <p>Made with 🤎 in Brooklyn </p>
         </section>
 
+<section class="contact-container">
         <section id="contact-content">
             <button class="btn" onclick="window.location.href='https://github.com/AlessandroB96';" value="Go to my GitHub">
+            <div class="svg-container">
                 <img src="./images/github-1.svg" class="github" />
+            </div>
             </button>
         </section>
 
         <section id="contact-content">
             <button class="btn" onclick="window.location.href='https://www.linkedin.com/in/alessandrobelaj/';" value="Go to my LinkedIn">
+                <div class="svg-container">
                 <img src="./images/linkedin-1.svg" class="LI" />
+                </div>
             </button>
         </section>
 
         <section id="contact-content" >
-            <a href = "mailto: abelaj7196@gmail.com">
+            <button class="btn" onclick="window.location.href='mailto: abelaj7196@gmail.com';" value="email me">
+                <div class="svg-container">
                 <img src="./images/gmail-1.svg" class="gmail" />
+                </div>
+            </button>
             </a>
         </section>
+</section>
 
 </footer>
+
+<div class="test"></div>
 
 </html>
 

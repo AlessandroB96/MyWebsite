@@ -34,7 +34,7 @@ header {
 }
 
 
-a {
+.nav {
     background-image: linear-gradient(
       to right,
       #885239,
@@ -172,6 +172,7 @@ a {
     margin-bottom: 0px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
     max-height: 100%;
+    display: flex;
 }
 
 .projects-content {
@@ -363,7 +364,7 @@ ul {
     font-size: 30px;
     align-items: center;           /*Places contact me flex box and adjacent flox box on the same line vertically*/
     color: whitesmoke;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 .solid {
@@ -371,29 +372,41 @@ ul {
     border-radius: 5px;
 }
 
+.contact-container {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 70px;
+}
+
 #contact-content {
-    margin: 10px 10px 10px 10px; 
+    margin: 10px 20px 10px 20px; 
 }
 
 .github {
+    padding: 10px 0px;
     min-width: 40px;
-    height:auto;
-    margin-left: auto;
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%); 
     cursor: pointer;
-
 }
 
 .LI {
+    padding: 10px 0px;
     min-width: 40px;
-    height:auto;
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%);
     cursor: pointer;
-    
-    
+}
 
+.svg-container {
+    width:70px; /* overriding previous values */
+    height:70px;
+    border-radius: 50%; /* here's the trick */
+    background-color: rgb(202, 138, 127);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+
+    
 }
 
 .LI:hover , .gmail:hover , .github:hover {
@@ -401,10 +414,17 @@ ul {
 }
 
 .gmail {
+    padding: 10px 0px;
     min-width: 40px;
     height:auto;
     filter: drop-shadow(1px 0px 0px black);
     filter: invert(100%);
+}
+
+.love {
+    display: flex;
+    margin-left: 480px;
+    text-align: center;
 }
 
 
@@ -521,9 +541,9 @@ ul {
 
     }
 
-    
-
-    .love , #contact-tag {
+    .love {
+        display: flex;
+        justify-content: center;
         text-align: center;
     }
 }
