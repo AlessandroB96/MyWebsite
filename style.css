@@ -406,7 +406,6 @@ ul {
     background-color: rgb(202, 138, 127);
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
 
-    
 }
 
 .LI:hover , .gmail:hover , .github:hover {
@@ -415,7 +414,7 @@ ul {
 
 .gmail {
     padding: 10px 0px;
-    min-width: 40px;
+    min-width: 45px;
     height:auto;
     filter: drop-shadow(1px 0px 0px black);
     filter: invert(100%);
