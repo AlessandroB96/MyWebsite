@@ -385,7 +385,7 @@ ul {
 
 .github {
     padding: 10px 0px;
-    min-width: 40px;
+    min-width: 45px;
     filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%); 
     cursor: pointer;
