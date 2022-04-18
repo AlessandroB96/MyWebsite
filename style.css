@@ -150,7 +150,7 @@ header {
 }
 
 .dropdown-icon {
-    width: 70px;
+    width: 40px;
     filter: invert(1);
     display: flex;
     justify-content: center;
@@ -161,9 +161,8 @@ header {
     animation-fill-mode: both;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
-    animation-iteration-count: 1;
     -webkit-animation-iteration-count: infinite;
-    color: white;
+    filter: invert(91%) sepia(0%) saturate(1206%) hue-rotate(210deg) brightness(85%) contrast(79%);
     
 }
 
@@ -171,17 +170,18 @@ header {
     cursor: pointer; 
     animation-name: bounce;
     -moz-animation-name: bounce;
+    animation-iteration-count: 3;
 }
 /* ARTICLE CONTENTS IN THE BODY */
 
 .about-me {
     display: flex;
-    background-color: rgb(221, 79, 79);
+    background-color: rgba(221, 79, 79, 0.609);
     flex-direction: column;
     justify-content: center;
-    border: 2px solid rgb(221, 79, 79);
-    border-radius: 20px;
-    margin: 0px 500px 0px 100px;
+    border-radius: 30px;
+    max-width: 550px;
+    margin: auto;
 }
 
 
@@ -202,26 +202,65 @@ header {
 
 .skills {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgb(221, 79, 79);
+    background-color: rgba(221, 79, 79, 0.609);
     justify-content: center;
-    border: 2px solid rgb(221, 79, 79);
-    border-radius: 20px;
-    margin: 0px 500px 0px 500px;
+    border-radius: 30px;
+    max-width: 700px;
+    margin: auto;
     padding: 10px;
+}
+
+.sidebysideLang {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 62px;
+}
+
+.sidebysideTools {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 117px;
+}
+
+.sidebysideCategories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 40px;
 }
 
 .skills-tag-title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     color: rgb(184, 182, 182);
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
+
+}
+
+.skills-categories {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    color: rgb(184, 182, 182);
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.skills-display {
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-size: 24px;
+    flex: 2;
 }
 
 .skills-tags {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     color:black;
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
@@ -230,11 +269,11 @@ header {
 .experience {
     display: flex;
     flex-direction: column;
-    background-color: rgb(221, 79, 79);
+    background-color: rgba(221, 79, 79, 0.609);
     justify-content: center;
-    border: 2px solid rgb(221, 79, 79);
-    border-radius: 20px;
-    margin: 0px 100px 0px 500px;
+    border-radius: 30px;
+    margin: auto;
+    max-width: 850px;
     padding: 10px;
 }
 
@@ -243,7 +282,6 @@ header {
     flex-direction: column;
     justify-content: center;
     color:black;
-    font-size: 25px;
 }
 
 .exp-title-main {
@@ -437,11 +475,16 @@ header {
 .cards {
     opacity: 0;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
 }
 
 .cards-title {
     opacity: 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    color:rgb(221, 79, 79);
+
 }
 #allcards:hover > .cards-title {
     opacity: 1;
@@ -457,18 +500,12 @@ header {
     opacity: 1;
 }
 
-li {
-    font-size: 20px;
-    font-weight: bolder;
-}
-
 ul {
     list-style-type: none;
 }
 
 .exp-title {
     font-style: italic;
-    font-weight: bolder;
 }
 .contact {
     display: flex;
@@ -493,7 +530,6 @@ ul {
 .github {
     padding: 10px 0px;
     min-width: 45px;
-    filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%); 
     cursor: pointer;
 }
@@ -501,7 +537,6 @@ ul {
 .LI {
     padding: 10px 0px;
     min-width: 30px;
-    filter: drop-shadow(1px 1px 0px black);
     filter: invert(100%);
     cursor: pointer;
 }
@@ -555,11 +590,42 @@ ul {
     background-color: rgb(184, 182, 182);
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
-    height: 100px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    margin-top: 70px;
     margin-bottom: 0px;
+    height: 80px;
+    color:rgb(221, 79, 79);
 }
+
+.resume-container {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resume-title {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
+
+}
+
+.pdf {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 
 /*MEDIA QUERIES*/

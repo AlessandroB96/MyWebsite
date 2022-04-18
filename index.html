@@ -8,6 +8,8 @@
     <title>Alessandro Belaj</title>
     <link rel="icon" type="image/png" href="/images/favicon.png">
     <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     
 
     <style>
@@ -31,7 +33,7 @@
         <a href="#projects" class="nav">projects</a>
     </li>
     <li>
-        <a href="#contact" class="nav">resume</a>
+        <a href="#resume" class="nav">resume</a>
     </li>  
 </ul>
 </header>
@@ -116,7 +118,23 @@
     <br />
 
     <section class="skills-content">
-        <h1 class="skills-tags">HTML , CSS , JavaScript, JQuery, Bootstrap, Git, GitHub, Server-Side APIs, Web APIs, 3rd-Party APIs, RESTful APIs, Node, Jest, OOP, TTD, React, Figma, MERN Stack </p>
+        <div class="sidebysideLang">
+            <p class="skills-tags">
+                <span class="skills-categories">LANGUAGES:</span>
+                <p class="skills-display"> HTML , CSS , JavaScript, NodeJS, Mongodb, Python </p>
+        </div>
+
+        <div class="sidebysideTools">
+            <p class="skills-tags">
+                <span class="skills-categories">TOOLS:</span>
+                <p class="skills-display"> Git, MongoDB Atlas, AWS, Figma, Unix, Insomnia</p>
+        </div>
+
+        <div class="sidebysideCategories">
+            <p class="skills-tags">
+                <span class="skills-categories">FRAMEWORKS:</span> 
+                <p class="skills-display">React, Mongoose, Express, Bootstrap</p>
+        </div>
     </section>  
 </article>
 
@@ -252,8 +270,15 @@
         </section>
     </article>
 
-<footer>
-    <div class="resume"> [download resume] </div>
+<footer class="resume" id="resume">
+    <a href="/resume/AlessandroBelaj_Resume.pdf" download class="pdf">
+        <div class="resume-container">
+            <img src="./images/download.svg" class="download" />
+            <div class="resume-title">
+                RESUME 
+            </div>
+        </div>
+    </a>
 </footer>
 
 </body>
