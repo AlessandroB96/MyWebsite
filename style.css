@@ -294,7 +294,7 @@ header {
 
 .exp-title {
     display: flex;
-    color:black;
+    color: rgb(184, 182, 182);
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
 }
@@ -349,7 +349,6 @@ header {
     margin: 15px auto 15px auto;
     justify-content: space-between;
     justify-content: space-around;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
     padding: 10px;
     min-width: 200px;
     min-height: 200px;                 /*Allows for project cards to have the same size and allow text insde to wrap*/
