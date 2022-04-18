@@ -48,7 +48,7 @@ header {
     font-family: 'Dosis', sans-serif;
   }
   
-  a:before {
+  .nav:before {
     content: '';
     background: #483cb3;
     border-radius: 3px;
@@ -61,11 +61,11 @@ header {
     transition: all 0.5s ease-in-out;
   }
   
-  a:hover {
+  .nav:hover {
    background-position: 0;
   }
   
-  a:hover::before {
+  .nav:hover::before {
     width:100%;
   }
 
