@@ -848,6 +848,100 @@ ul {
         
     }
 
+    .dropdown-container {
+        display: none;
+    }
+
+    .about-me-title {
+        color:rgb(221, 79, 79);
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: transparent;
+        max-width: 550px;
+        margin: auto;
+    }
+
+    .about-me-content {
+        color: rgb(184, 182, 182);
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: transparent;
+        justify-content: center;
+        border-radius: 30px;
+        margin: auto;
+        padding: 10px;
+    }
+
+    .skills-tag-title {
+        font-size: 30px;
+        color:rgb(221, 79, 79);
+    }
+
+    .sidebysideLang {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    
+    .sidebysideTools {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        gap: 0;
+    }
+    
+    .sidebysideCategories {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        gap: 0;
+    }
+
+    .skills-categories {
+        color:rgb(221, 79, 79);
+        font-size: 22px;
+    }
+
+    .skills-display {
+        color:rgb(184, 182, 182);
+        font-size: 18px;
+        margin-left: 10px;
+    }
+
+    .experience {
+        background-color: transparent;
+    }
+
+    .exp-title {
+        font-size: 22px;
+        color:rgb(200, 79, 79);
+    }
+
+    .exp-title-main {
+        color:rgb(200, 79, 79);
+    }
+
+    .exp-cont {
+        font-size: 18px;
+        color:rgb(184, 182, 182);
+    }
+
     #projects-tag {
         margin: 60px 17px 2px 20px;
     }
