@@ -642,7 +642,6 @@ ul {
         height:55px;
         border-radius: 50%; /* here's the trick */
         background-color: rgb(200, 79, 79);
-        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
     }
 }
 
