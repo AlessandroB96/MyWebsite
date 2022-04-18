@@ -641,7 +641,7 @@ ul {
         width:55px; /* overriding previous values */
         height:55px;
         border-radius: 50%; /* here's the trick */
-        background-color: rgb(202, 138, 127);
+        background-color: rgb(200, 79, 79);
         box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
     }
 }
@@ -803,7 +803,7 @@ ul {
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
-        line-height: 2.5;
+        line-height: 1;
     }
 
     .pfp {
@@ -820,23 +820,31 @@ ul {
         width: 50%;
     }
 
+    .main-content {
+        margin-top: 10px;
+    }
+
     .flex-container {
         display: flex; 
         flex-direction: column;
         align-items: center;
         margin-top: 0px;
-        margin-bottom: 80px;
+        margin-bottom: 10px;
     }
+
     .sub-text {
-        margin-left: 10px;
+        justify-content: center;
+        margin-left: 40px;
         margin-right: 10px;
-        text-align: center;
+        font-size: 25px;
+
     }
 
     .header-text {
         text-align: center;
         margin-top: 20px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
+        font-size: 45px;
         
     }
 
