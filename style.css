@@ -176,17 +176,18 @@ header {
 
 .about-me {
     display: flex;
-    background-color: rgba(221, 79, 79, 0.609);
     flex-direction: column;
+    background-color: #162768;
     justify-content: center;
     border-radius: 30px;
     max-width: 550px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 
 .about-me-title {
-    color: rgb(184, 182, 182);
+    color: rgb(200, 79, 79);
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
 }
@@ -194,7 +195,7 @@ header {
 .about-me-tag, .about-me-content {
     display: flex;
     justify-content: center;
-    color:black;
+    color:rgb(184, 182, 182);
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
     padding: 10px;
@@ -204,11 +205,12 @@ header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: rgba(221, 79, 79, 0.609);
     justify-content: center;
+    background-color: #162768;
     border-radius: 30px;
     max-width: 700px;
     margin: auto;
+    margin-bottom: 30px;
     padding: 10px;
 }
 
@@ -237,7 +239,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: rgb(184, 182, 182);
+    color: rgb(200, 79, 79);
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
 
@@ -246,7 +248,7 @@ header {
 .skills-categories {
     display: flex;
     font-family: 'Dosis', sans-serif;
-    color: rgb(184, 182, 182);
+    color: rgb(200, 79, 79);
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -256,6 +258,7 @@ header {
     font-family: 'Dosis', sans-serif;
     font-size: 24px;
     flex: 2;
+    color:rgb(184, 182, 182);
 }
 
 .skills-tags {
@@ -269,7 +272,7 @@ header {
 .experience {
     display: flex;
     flex-direction: column;
-    background-color: rgba(221, 79, 79, 0.609);
+    background-color: #162768;
     justify-content: center;
     border-radius: 30px;
     margin: auto;
@@ -281,27 +284,27 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:black;
+    color:rgb(184, 182, 182);
 }
 
 .exp-title-main {
     display: flex;
     justify-content: center;
-    color: rgb(184, 182, 182);
+    color: rgb(200, 79, 79);
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
 }
 
 .exp-title {
     display: flex;
-    color: rgb(184, 182, 182);
+    color: rgb(200, 79, 79);
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
 }
 
 .exp-cont {
     display: flex;
-    color:black;
+    color:rgb(184, 182, 182);
     font-family: 'Dosis', sans-serif;
     font-size: 25px;
 }
