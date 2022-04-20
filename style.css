@@ -592,13 +592,11 @@ ul {
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
     border-radius: 20px;
-    border-left: 3px solid rgb(200, 79, 79);
-    border-right: 3px solid rgb(200, 79, 79);
+    /* border-top: 2px solid rgb(200, 79, 79);
+    border-right: 2px solid rgb(200, 79, 79); */
     margin-top: 70px;
     max-width: 220px;
     margin-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: 50px auto 50px auto;
     
     height: 80px;
@@ -616,14 +614,14 @@ ul {
     display: flex;
     flex-direction: column;
     font-family: 'Dosis', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .download {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50px;
+    width: 60px;
     filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
 
 }
@@ -639,6 +637,18 @@ ul {
 
 @media screen and (max-width: 1181px) {
 
+    .menu-items {
+        display: flex; 
+        flex-wrap: flex;
+        list-style: none;
+        font-size: 20px;
+        font-weight: bold;
+        align-items: center ;
+        justify-content: center ;
+        justify-content: space-around;
+        margin: auto 150px auto 150px;
+    }
+    
     .love {
         margin-left: 300px;
     }
@@ -805,12 +815,23 @@ ul {
 
 
 @media screen and (max-width: 575px) {
+
+    body {
+        background-image: url("./images/waves-phone.svg");
+    }
+
     .menu-items {
+        margin-top: 30px;
+        margin-bottom: 50px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
-        line-height: 1;
+        line-height: 1.25;
+    }
+
+    .nav:hover {
+        text-decoration: none;
     }
 
     .pfp {
