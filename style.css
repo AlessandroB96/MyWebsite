@@ -635,29 +635,6 @@ ul {
 
 /*MEDIA QUERIES*/
 
-@media screen and (min-width: 1181px) {
-
-    body {
-        background-image: url("./images/waves-phone.svg");
-    }
-
-    .main-content {
-        margin-top: 200px;
-    }
-
-    .projects-content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: auto;
-        max-width: 1000px;
-    }
-
-    .btn {
-        display: flex;
-        margin: auto 20px auto 20px;
-    }
-}
 
 @media screen and (max-width: 1181px) {
 
