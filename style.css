@@ -641,6 +641,10 @@ ul {
         background-image: url("./images/waves-phone.svg");
     }
 
+    .main-content {
+        margin-top: 200px;
+    }
+
     .projects-content {
         display: flex;
         flex-wrap: wrap;
