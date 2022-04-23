@@ -368,14 +368,6 @@ header {
     cursor: pointer;
 }
 
-.project2 {
-    background-image: url("./images/Mock-up.png");     /*Since the first project card is run buddy, we can differentiate it from the placeholder background. Cascading sheets, updates background*/
-    background-position: 50% -200%;             /*Positions background where the people in it are gathering paperwork*/
-    border: 3px solid black;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
 .project3 {
     background-image: url("./images/git-it-done.png");
     background-size: 125%;
@@ -444,6 +436,15 @@ header {
     background-position: 0% 120%;
     border: 3px solid black;
     color: black;
+    cursor: pointer;
+}
+
+.project2 {
+    background-image: url("./images/budgettracker.png"); 
+    background-size: 100%;   
+    background-position: 50% ;        
+    border: 3px solid black;
+    border-radius: 20px;
     cursor: pointer;
 }
 
