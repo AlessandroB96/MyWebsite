@@ -174,3 +174,78 @@ header {
   font-size: 25px;
 }
 
+.experience {
+  display: flex;
+  flex-direction: column;
+  background-color: #162768;
+  justify-content: center;
+  border-radius: 30px;
+  margin: auto;
+  max-width: 850px;
+  padding: 10px;
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:rgb(184, 182, 182);
+  padding: 10px;
+}
+
+.exp-title-main {
+  display: flex;
+  justify-content: center;
+  color: rgb(200, 79, 79);
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.exp-title {
+  display: flex;
+  color: rgb(200, 79, 79);
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+}
+
+.exp-cont {
+  display: flex;
+  color:rgb(184, 182, 182);
+  font-family: 'Dosis', sans-serif;
+  font-size: 25px;
+}
+
+.exp-title {
+  font-style: italic;
+}
+
+.projects-tag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.projects-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto 70px auto 70px;
+}
+
+#allcards {
+  display: flex;
+  flex-wrap: wrap;
+  background-image: black;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  margin: 15px auto 15px auto;
+  justify-content: space-between;
+  justify-content: space-around;
+  padding: 10px;
+  min-width: 200px;
+  min-height: 200px;                 /*Allows for project cards to have the same size and allow text insde to wrap*/
+  max-width: 200px;
+  max-height: 200px;
+  align-items: center;
+}
