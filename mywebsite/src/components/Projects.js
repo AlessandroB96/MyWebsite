@@ -10,14 +10,14 @@ function Projects() {
 
         <section class="projects-content">
 
-            <a target="google" href="https://alessandrob96.github.io/taskmaster-pro/">
             <button class="btn" id="hoverbig" value="click this button to go to taskmaster pro">
+            <a target="google" href="https://alessandrob96.github.io/taskmaster-pro/">
                 <section class="project4" id="allcards">
                     <p class="cards-title">TASKMASTER PRO</p>
                     <p class="cards">Edit, organize, and manage tasks </p>
                 </section>
-            </button>
             </a>
+            </button>
 
             <a target="google" href="https://alessandrob96.github.io/run-buddy/">
             <button class="btn" id="hoverbig" value="Go to my webpage created for Run Buddy">
