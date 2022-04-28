@@ -226,6 +226,17 @@ header {
   justify-content: center;
   text-align: center;
 }
+
+.project-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  color:rgb(200, 79, 79);
+  font-family: 'Dosis', sans-serif;
+  font-size: 40px;
+}
+
 .projects-content {
   display: flex;
   flex-wrap: wrap;
@@ -368,4 +379,197 @@ header {
 .btn {
   background: none;
   border: none;
+}
+
+.all-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto 70px auto 70px;
+}
+
+.cards {
+  opacity: 0;
+  font-style: italic;
+  font-size: 20px;
+  font-family: 'Dosis', sans-serif;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.cards-title {
+  opacity: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  color:rgb(221, 79, 79);
+
+}
+#allcards:hover > .cards-title {
+  opacity: 1;
+}
+
+#allcards:hover > .cards {
+  opacity: 1;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  border-radius: 20px;
+  /* border-top: 2px solid rgb(200, 79, 79);
+  border-right: 2px solid rgb(200, 79, 79); */
+  margin-top: 70px;
+  max-width: 220px;
+  margin-bottom: 20px;
+  margin: 50px auto 50px auto;
+  
+  height: 80px;
+  color:rgb(221, 79, 79);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-container {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.resume-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Dosis', sans-serif;
+  font-size: 50px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-size: 50px;
+  color:rgb(221, 79, 79);
+}
+
+.email, .name, .message {
+  color:rgb(221, 79, 79);
+  font-size: 30px;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  background-color: #162768;
+  width: 550px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.name-line {
+  display: flex;
+  vertical-align: middle;
+  gap: 64px;
+  padding-top: 10px;
+}
+
+.email-line {
+  display: flex;
+  vertical-align: middle;
+  gap: 61px;
+}
+
+.message-line {
+  gap: 20px;
+}
+
+.message {
+  display: flex;
+  vertical-align: middle;
+}
+
+.label {
+  background-color: #162768;
+  border-width: 0 0 1px;
+  width: 300px;
+  outline: none;
+  font-size: 20px;
+  color:rgb(221, 79, 79);
+  border-color: rgb(221, 79, 79);
+}
+
+textarea {
+  border-width: 0 0 1px;
+  outline: none;
+  width: 445px;
+  height: 150px;
+  font-size: 20px;
+  background-color: #162768;
+  color:rgb(221, 79, 79);
+  border-color: rgb(221, 79, 79);
+  resize: none;
+
+}
+
+.submit-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.submit {
+  font-size: 30px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  background-color: rgb(221, 79, 79) ;
+  cursor: pointer;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60px;
+  filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
+
+}
+
+.pdf {
+  text-decoration: none;
+  color: inherit;
+}
+
+#hoverbig:hover {
+  transform: scale(1.1,1.1);
+  transform-origin: center;
+  transition: 0.5s;
+}
+
+#allcards:hover {
+  background-image: none;
+  background-color: rgb(184, 182, 182);
+  opacity: 1;
 }
