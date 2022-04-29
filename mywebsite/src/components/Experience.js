@@ -2,11 +2,12 @@ import React from 'react';
 
 function Experience() {
     return (
-
-    <article class="experience" id="experience">
+<div>
         <section id="experience-tag">
             <h1 class="exp-title-main">EXPERIENCE</h1>
         </section>
+
+    <article class="experience" id="experience">
 
         <br />
         <section class="experience-content"> 
@@ -30,6 +31,7 @@ function Experience() {
                 <br />
         </section>
     </article>
+</div>
     );
 }
 
