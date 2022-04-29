@@ -1,11 +1,13 @@
 import React from 'react';
 
-function About({content}) {
+function About() {
     return (
-    <article class="about-me" id="about-me">
+    <div> 
         <section class="about-me-tag">
                 <h1 class="about-me-title">ABOUT ME</h1>
         </section>
+
+    <article class="about-me" id="about-me">
         
         <section class="about-me-content"> 
             <p class="about-me-content">
@@ -14,6 +16,7 @@ function About({content}) {
             </p>
         </section> 
     </article>
+    </div>
     );
 }
 
