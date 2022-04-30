@@ -12,17 +12,18 @@ body {
 
 .menu-items {
   display: flex; 
-  flex-wrap: flex;
+  flex-wrap: wrap;
   list-style: none;
   font-size: 22px;
   font-weight: 900;
-  align-items: center ;
   justify-content: center ;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto 460px auto 460px;
 }
 
 header {
+  display: flex;
+  flex-wrap: wrap;
   padding: 30px 20px 30px 20px;
   top: 0;
 }
@@ -99,6 +100,47 @@ header {
 
 }
 
+.svg-container {
+  display: flex;
+  justify-content: center;
+  width:55px; /* overriding previous values */
+  height:55px;
+  border-radius: 50%; /* here's the trick */
+  background-color: rgb(200, 79, 79);
+  margin-bottom: 130px;
+}
+
+.LI:hover , .gmail:hover , .github:hover {
+  opacity: 60%;
+}
+
+#contact-content {
+  margin: 10px 20px 10px 20px; 
+}
+
+.github {
+  padding: 10px 0px;
+  min-width: 45px;
+  filter: invert(100%); 
+  cursor: pointer;
+}
+
+.LI {
+  padding: 10px 0px;
+  min-width: 30px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.gmail {
+  padding: 10px 0px;
+  min-width: 40px;
+  height:auto;
+  filter: drop-shadow(1px 0px 0px black);
+  filter: invert(100%);
+  cursor: pointer;
+}
+
 .about-me {
   display: flex;
   flex-direction: column;
@@ -134,6 +176,7 @@ header {
 .about-me-content {
   width: 800px;
   padding: 15px;
+  font-size: 35px;
 }
 
 #about-me-tag {
@@ -230,23 +273,20 @@ header {
 }
 
 .html, .git, .react, .nodejs, .mongo {
-  filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
+  filter:invert(49%) sepia(11%) saturate(2809%) hue-rotate(315deg) brightness(84%) contrast(92%);
 
 }
 
 .css {
   width: 50px;
-  filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
+  filter:invert(49%) sepia(11%) saturate(2809%) hue-rotate(315deg) brightness(84%) contrast(92%);
 }
 
 .js {
   width: 50px;
-  filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
+  filter:invert(49%) sepia(11%) saturate(2809%) hue-rotate(315deg) brightness(84%) contrast(92%);
 
 }
-
-
-
 
 .experience {
   display: flex;
@@ -592,7 +632,7 @@ footer {
   width: 300px;
   outline: none;
   font-size: 20px;
-  color:rgb(221, 79, 79);
+  color:rgb(184, 182, 182);
   border-color: rgb(221, 79, 79);
 }
 
@@ -603,7 +643,7 @@ textarea {
   height: 130px;
   font-size: 20px;
   background-color: #162768;
-  color:rgb(221, 79, 79);
+  color:rgb(184, 182, 182);
   border-color: rgb(221, 79, 79);
   resize: none;
 
@@ -624,6 +664,18 @@ textarea {
   background: none;
   background-color: rgb(221, 79, 79) ;
   cursor: pointer;
+}
+
+.error-text {
+  color: rgb(226, 32, 32);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.success-text {
+  color: rgb(27, 189, 68);
+  font-size: 25px;
+  font-weight: bolder;
 }
 
 .download {
@@ -650,4 +702,56 @@ textarea {
   background-image: none;
   background-color: rgb(184, 182, 182);
   opacity: 1;
+}
+
+@media screen and (min-width: 1300px) {
+
+  .menu-items {
+
+  }
+  
+  header {
+    top: 0;
+    gap: 20px;
+  }
+  
+  .nav {
+    background-image: linear-gradient(
+      to right,
+      #132259,
+      #132259 50%,
+      #000 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    margin: 20px;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.6s ease-in-out;
+    font-family: 'Dosis', sans-serif;
+  }
+  
+  .nav:before {
+    content: '';
+    background: #483cb3;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .nav:hover {
+   background-position: 0;
+  }
+  
+  .nav:hover::before {
+    width:100%;
+  }
 }
