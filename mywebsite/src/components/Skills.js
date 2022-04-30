@@ -8,12 +8,11 @@ import nodejs from '../assets/images/nodejs.png';
 import mongo from '../assets/images/mongo.png';
 
 function Skills() {
-
     
     return (
 
     <div>
-             <section id="about-me-tag">
+             <section class="skills-tag">
                     <h1 class="skills-tag-title">SKILLS</h1>
              </section>
        

@@ -15,7 +15,7 @@ function App() {
   const renderPage = () => {
   
     if(currentPage === 'Main') {
-      return <Main />;
+      return <Main />
     }
     if(currentPage === 'about me') {
       return <About />;

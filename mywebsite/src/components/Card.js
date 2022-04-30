@@ -17,25 +17,11 @@ function Card() {
         </section>
     </button>
 
-    <button class="btn" id="hoverbig" onClick={() => window.open("https://alessandrob96.github.io/run-buddy/", "_blank")} value="Go to my webpage created for Run Buddy">
-        <section class="project1" id="allcards">
-            <p class="cards-title">RUN BUDDY</p>
-            <p class="cards">Sign up and pick a trainer</p>
-        </section>
-    </button>
-
     
     <button class="btn" id="hoverbig" onClick={() => window.open("https://alessandrob96.github.io/git-it-done/", "_blank")} value="PLACEHOLDER">
         <section class="project3" id="allcards">
             <p class="cards-title">GIT IT DONE</p>
             <p class="cards">Search a github username or sort by language to assist users</p>
-        </section>
-    </button>
-    
-    <button class="btn" id="hoverbig" onClick={() => window.open("https://alessandrob96.github.io/PasswordGenerator/", "_blank")} value="PLACEHOLDER">
-        <section class="project5" id="allcards">
-            <p class="cards-title">PASSWORD GENERATOR</p>
-            <p class="cards">Front end webpage that generates a password based on user criteria</p>
         </section>
     </button>
     

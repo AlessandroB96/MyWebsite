@@ -19,7 +19,7 @@ function Nav({ currentPage, handlePageChange }) {
                     href="#about-me"
                     onClick={() => handlePageChange('about me')} 
                     class="nav">
-                        {currentPage[0]}
+                        ABOUT ME
                     </a>
                 </li>
                 <li>
@@ -27,28 +27,28 @@ function Nav({ currentPage, handlePageChange }) {
                        currentPage="Skills" 
                        onClick={() => handlePageChange('Skills')} 
                        class="nav">
-                        skills
+                        SKILLS
                     </a>
                 </li>
                 <li>
                     <a href="#experience" 
                     onClick={() => handlePageChange('Experience')} 
                     class="nav">
-                        experience
+                        EXPERIENCE
                     </a>
                 </li>
                 <li>
                     <a href="#projects" 
                     onClick={() => handlePageChange('Projects')} 
                     class="nav" >
-                        projects
+                        PROJECTS
                     </a>
                 </li>
                 <li>
                     <a href="#resume" 
                     onClick={() => handlePageChange('Contact')}
                     class="nav">
-                        contact
+                        CONTACT
                     </a>
                 </li>  
             </ul>
