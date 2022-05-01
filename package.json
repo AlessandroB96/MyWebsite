@@ -1,6 +1,6 @@
 {
-  "name": "src",
-  "homepage": "https://alessandrob96.github.io/MyWebsite/",
+  "name": "mywebsite",
+  "homepage": "https://www.abelaj.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
