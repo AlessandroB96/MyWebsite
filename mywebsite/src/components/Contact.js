@@ -42,7 +42,7 @@ function Contact() {
 
             <div class="contact-container">
                 <div class="text-container">
-                <h1 class="text">CONTACT ME</h1>
+                <h1 class="text" id="contact">CONTACT ME</h1>
                 </div> 
             </div>
         <br />

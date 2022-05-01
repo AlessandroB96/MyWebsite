@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Card from './components/Card';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -34,11 +35,17 @@ function App() {
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
+
+  const MainPage = currentPage === 'Main';
   
   return (
     <div>
         <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
+
+        {!MainPage && (
+        <Footer />
+        )}
     </div>
   );
 }

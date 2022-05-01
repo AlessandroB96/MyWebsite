@@ -13,7 +13,7 @@ function Skills() {
 
     <div>
              <section class="skills-tag">
-                    <h1 class="skills-tag-title">SKILLS</h1>
+                    <h1 class="skills-tag-title" id="skills">SKILLS</h1>
              </section>
        
      <article class="skills" id="skills">

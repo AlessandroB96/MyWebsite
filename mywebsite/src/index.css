@@ -47,7 +47,7 @@ header {
 
 .nav:before {
   content: '';
-  background: #483cb3;
+  background: #162768;
   border-radius: 3px;
   display: block;
   position: absolute;
@@ -70,7 +70,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 300px auto 100px auto;
+  margin: 280px auto 0px auto;
   max-height: 50%;
 }
 
@@ -106,7 +106,8 @@ header {
   height:55px;
   border-radius: 50%; /* here's the trick */
   background-color: rgb(200, 79, 79);
-  margin-bottom: 130px;
+  margin-top: 50px;
+  margin-bottom: 3px;
 }
 
 .LI:hover , .spotify:hover , .github:hover {
@@ -181,7 +182,7 @@ header {
 }
 
 .skills-tag {
-  margin-top: 220px;
+  margin-top: 160px;
   margin-bottom: 30px;
   font-size: 50px;
 }
@@ -567,8 +568,15 @@ footer {
 }
 
 .contact-container {
+  position: relative;
+  bottom: 0;
   display: flex;
   justify-content: center;
+}
+
+.contact-content {
+  position: absolute;
+  bottom: 0;
 }
 
 .resume-container {
@@ -768,7 +776,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 557px) {
+@media screen and (max-width: 625px) {
 
   .menu-items {
     display: flex; 
