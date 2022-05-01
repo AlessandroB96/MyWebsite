@@ -4,6 +4,7 @@ import linkedin from '../../src/assets/images/linkedin-1.svg';
 import spotify from '../../src/assets/images/spotify.svg';
 
 function Main() {
+
     return (
 
     <main class="flex-container">
