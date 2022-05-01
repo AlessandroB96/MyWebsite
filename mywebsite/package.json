@@ -1,6 +1,6 @@
 {
   "name": "mywebsite",
-  "homepage": "http://www.abelaj.com/",
+  "homepage": "https://www.abelaj.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
