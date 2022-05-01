@@ -309,7 +309,8 @@ header {
   flex-direction: column;
   justify-content: center;
   color:rgb(184, 182, 182);
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .exp-title-main {
@@ -319,7 +320,7 @@ header {
   font-family: 'Dosis', sans-serif;
   font-size: 50px;
   margin-top: 145px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   padding-top: 10px;
 }
 
@@ -342,7 +343,7 @@ header {
 }
 
 .projects {
-  margin-top: 170px;
+  margin-top: 145px;
   margin-bottom: 30px;
 }
 
@@ -355,7 +356,7 @@ header {
 
 .project-title {
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center;
   color:rgb(200, 79, 79);
@@ -556,7 +557,7 @@ header {
   border-radius: 20px;
   max-width: 220px;
   margin-bottom: 20px;
-  margin: 20px auto 20px auto;
+  margin: 300px auto 20px auto;
   height: 80px;
   color:rgb(221, 79, 79);
 }
@@ -568,15 +569,13 @@ footer {
 }
 
 .contact-container {
-  position: relative;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.contact-content {
   position: absolute;
   bottom: 0;
+  left:0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }
 
 .resume-container {
@@ -590,7 +589,7 @@ footer {
   display: flex;
   flex-direction: column;
   font-family: 'Dosis', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 .text-container {
@@ -686,17 +685,11 @@ textarea {
   font-weight: bolder;
 }
 
-.success-text {
-  color: rgb(27, 189, 68);
-  font-size: 25px;
-  font-weight: bolder;
-}
-
 .download {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60px;
+  width: 75px;
   filter:invert(46%) sepia(12%) saturate(3817%) hue-rotate(318deg) brightness(90%) contrast(91%);
 
 }
@@ -716,6 +709,71 @@ textarea {
   background-image: none;
   background-color: rgb(184, 182, 182);
   opacity: 1;
+}
+
+/* /////////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////// */
+
+.contact-container {
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.LI:hover , .spotify:hover , .github:hover {
+  opacity: 60%;
+}
+
+.contact-contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contact-content {
+  margin: 10px 20px 10px 20px; 
+}
+
+.github {
+  padding: 10px 0px;
+  min-width: 45px;
+  filter: invert(100%); 
+  cursor: pointer;
+}
+
+.LI {
+  padding: 10px 0px;
+  width: 32px;
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.spotify {
+  filter: drop-shadow(1px 0px 0px black);
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  width:55px; /* overriding previous values */
+  height:55px;
+  border-radius: 50%; /* here's the trick */
+  background-color: rgb(200, 79, 79);
+  margin-top: 50px;
+  margin-bottom: 3px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 1000px) {

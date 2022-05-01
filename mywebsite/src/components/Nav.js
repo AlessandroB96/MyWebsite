@@ -1,8 +1,7 @@
 import React from 'react';
 
-function Nav({ currentPage, handlePageChange }) {
+function Nav({ handlePageChange }) {
 
-    currentPage = ['about me','skills', 'experience'];
 
     return (
         <header>
@@ -44,6 +43,13 @@ function Nav({ currentPage, handlePageChange }) {
                         PROJECTS
                     </a>
                 </li>
+                <li>
+                    <a href="#resume" 
+                    onClick={() => handlePageChange('Resume')}
+                    class="nav">
+                        RESUME
+                    </a>
+                </li>  
                 <li>
                     <a href="#contact" 
                     onClick={() => handlePageChange('Contact')}

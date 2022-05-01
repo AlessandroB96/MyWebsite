@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Contact from './components/Contact';
 import Card from './components/Card';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -26,6 +27,9 @@ function App() {
     }
     if(currentPage === 'Experience') {
       return <Experience />;
+    }
+    if(currentPage === 'Resume') {
+      return <Resume />;
     }
     if(currentPage === 'Projects') {
       return <Card />;

@@ -1,6 +1,4 @@
 import React, {useState} from 'react';
-import downloadsvg from '../../src/assets/images/download.svg';
-import resume from '../../src/resume/AlessandroBelaj_Resume.pdf';
 import { validateEmail } from '../utils/helpers';
 
 function Contact() {
@@ -40,14 +38,14 @@ function Contact() {
     return (
         <footer class="" id="">
 
-            <div class="contact-container">
+            <div class="contact-contain">
                 <div class="text-container">
                 <h1 class="text" id="contact">CONTACT ME</h1>
                 </div> 
             </div>
         <br />
 
-        <div class="box-container"  >
+        <div class="box-container">
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div class="name-line">
                     <label class="name" htmlFor="name">NAME:</label>
@@ -72,21 +70,10 @@ function Contact() {
                 
                 <br />
                 <div class="submit-container">
-                <button class="submit" type="submit">SUBMIT
-                </button>
+                <button class="submit" type="submit">SUBMIT</button>
                 </div>
             </form>
         </div>
-    <div class="resume">
-        <a href={resume} download="Alessandro_Belaj_Resume" class="pdf">
-        <div class="resume-container">
-            <img src={downloadsvg} class="download" alt="resume download button" />
-            <div class="resume-title">
-                RESUME 
-            </div>
-        </div>
-        </a>
-    </div>
     </footer>
     )
 }
