@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/MyWebsite/static/css/main.6b9803a8.css",
+    "main.js": "/MyWebsite/static/js/main.45f9aa97.js",
+    "static/js/787.21d17fcb.chunk.js": "/MyWebsite/static/js/787.21d17fcb.chunk.js",
+    "static/media/hero-bg.jpg": "/MyWebsite/static/media/hero-bg.7923f6e578ac13c09816.jpg",
+    "static/media/gymquest.png": "/MyWebsite/static/media/gymquest.3e56db8f5bf7e7bb2028.png",
+    "static/media/node.png": "/MyWebsite/static/media/node.1f5b056661a405afe2d2.png",
+    "static/media/AlessandroBelaj_Resume.pdf": "/MyWebsite/static/media/AlessandroBelaj_Resume.fe71f0a9ecafebda69c5.pdf",
+    "static/media/budgettracker.png": "/MyWebsite/static/media/budgettracker.bf5856cae5a3818f2105.png",
+    "static/media/readmepic.png": "/MyWebsite/static/media/readmepic.b7d475e594b7b2d801db.png",
+    "static/media/codequiz.png": "/MyWebsite/static/media/codequiz.119d1ded2752843dff9b.png",
+    "static/media/workday.png": "/MyWebsite/static/media/workday.4cf818dbc494e489802a.png",
+    "static/media/jestRPG.png": "/MyWebsite/static/media/jestRPG.dd496daad39e32c5ea2a.png",
+    "static/media/git-it-done.png": "/MyWebsite/static/media/git-it-done.3ad966c0ca43a16d0879.png",
+    "static/media/conch.png": "/MyWebsite/static/media/conch.c1d6f2b548fe350a73f4.png",
+    "static/media/taskmasterpro.png": "/MyWebsite/static/media/taskmasterpro.34f81087b8d54c24e107.png",
+    "static/media/waves.svg": "/MyWebsite/static/media/waves.2b1f83bbbcd52dfb8d1d.svg",
+    "static/media/css3.svg": "/MyWebsite/static/media/css3.52001725b4f1a048aed7c90bacb38872.svg",
+    "static/media/js.svg": "/MyWebsite/static/media/js.346bda3f1495a4807c83a0a89d3bc23f.svg",
+    "static/media/spotify.svg": "/MyWebsite/static/media/spotify.6e99526c72e3f795f1de5df37492ce04.svg",
+    "static/media/github-1.svg": "/MyWebsite/static/media/github-1.04be58c17b3d5e9744424d414240dd85.svg",
+    "index.html": "/MyWebsite/index.html",
+    "static/media/linkedin-1.svg": "/MyWebsite/static/media/linkedin-1.1633a96222d704c5ee5222386dd242bd.svg",
+    "static/media/download.svg": "/MyWebsite/static/media/download.e46f4fb030b5114f193667a887db37df.svg",
+    "static/media/html.svg": "/MyWebsite/static/media/html.9f9dd4f5cf7e603eecdb841e2d67e769.svg",
+    "main.6b9803a8.css.map": "/MyWebsite/static/css/main.6b9803a8.css.map",
+    "main.45f9aa97.js.map": "/MyWebsite/static/js/main.45f9aa97.js.map",
+    "787.21d17fcb.chunk.js.map": "/MyWebsite/static/js/787.21d17fcb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b9803a8.css",
+    "static/js/main.45f9aa97.js"
+  ]
+}
