@@ -14,7 +14,7 @@ function Main() {
             <div class="sub-text">a Mechanical Engineer turned Full Stack Web Developer</div> 
         </section>
 
-        <section class="contact-container">
+        <section class="contact-container-main">
                     <section id="contact-content">
                         <button class="btn" onClick={() => window.open('https://github.com/AlessandroB96')} value="Go to my GitHub">
                         <div class="svg-container">
