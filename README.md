@@ -7,12 +7,12 @@
 
 - HTML
 - CSS
-- Javascript 
+- Javascript  
 - React js
 
 
 <br />
-  <img src="../mywebsite/src/assets/images/websitepic1.png" height="300" width="400">
-  <img src="../mywebsite/src/assets/images/websitepic2.png" height="300" width="400">
+  <img src="./src/assets/images/websitepic1.png" height="300" width="450">
+  <img src="./src/assets/images/websitepic2.png" height="300" width="450">
 <br />
 
