@@ -5,7 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Contact from './components/Contact';
-import Card from './components/Card';
+import Cardd from './components/Cardd';
 import Footer from './components/Footer';
 import Resume from './components/Resume';
 
@@ -32,7 +32,7 @@ function App() {
       return <Resume />;
     }
     if(currentPage === 'Projects') {
-      return <Card />;
+      return <Cardd />;
     }
     return <Contact />;
   

@@ -115,7 +115,7 @@ header {
 }
 
 #contact-content {
-  margin: 10px 20px 10px 20px; 
+  margin: 10px 40px 10px 40px; 
 }
 
 .github {
@@ -521,6 +521,13 @@ header {
   margin-right: 20px;
 }
 
+.btn-footer {
+  background: none;
+  border: none;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .all-cards-container {
   display: flex;
   justify-content: space-between;
@@ -747,9 +754,6 @@ textarea {
   opacity: 1;
 }
 
-/* /////////////////////////////////////////////////////// */
-/* /////////////////////////////////////////////////////// */
-
 .contact-container-main {
   display: flex;
   flex-wrap: wrap;
@@ -873,7 +877,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 738px) {
 
   .menu-items {
     display: flex; 
@@ -882,8 +886,10 @@ textarea {
     flex-wrap: wrap;
     list-style: none;
     margin: 0px auto 0px auto;
-    font-size: 22px;
+    font-size: 17px;
     font-weight: 900;
+    padding: 0;
+    line-height: 1;
   }
   
   header {
@@ -985,6 +991,10 @@ textarea {
     margin-top: 100px;
   }
 
+  .resume {
+    margin-top: 140px;
+  }
+
   .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -1034,7 +1044,7 @@ textarea {
   textarea {
     border-width: 0 0 1px;
     outline: none;
-    width: auto;
+    width: 250px;
     height: 130px;
     font-size: 20px;
     background-color: transparent;
@@ -1059,6 +1069,7 @@ textarea {
     width: auto;
     background-color: transparent;
     margin: auto;
+    padding-top: 0px;
     align-items: center;
   }
 
@@ -1097,6 +1108,14 @@ textarea {
     flex-wrap: wrap;
     width: auto;
     gap: 10px;
+  }
+
+  .resume-title {
+    font-size: 40px;
+  }
+
+  footer {
+    margin-top: 80px;
   }
 
   textarea {
