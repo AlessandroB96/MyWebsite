@@ -391,16 +391,16 @@ header {
 .project1 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/hero-bg.jpg");     
+  background-image: url("./assets/images/hero-bg.jpg");     
   background-position: 75% -20%;
-  border: 3px solid black;
+  border: 3px solid black; 
   border-radius: 20px;
 }
 
 .project3 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/git-it-done.png");
+  background-image: url("./assets/images/git-it-done.png");
   background-size: 125%;
   border: 3px solid black;
 }
@@ -408,7 +408,7 @@ header {
 .project4 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/taskmasterpro.png");
+  background-image: url("./assets/images/taskmasterpro.png");
   background-size: 150%;
   background-position: 48% 60%;
   border: 3px solid black;
@@ -417,7 +417,7 @@ header {
 .project5 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/passgenerator.png");
+  background-image: url("./assets/images/passgenerator.png");
   background-size: 110%;
   background-position: 48% 120%;
   border: 3px solid black;
@@ -427,7 +427,7 @@ header {
 .project6 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/codequiz.png");
+  background-image: url("./assets/images/codequiz.png");
   background-size: 140%;
   background-position: 60% 120%;
   border: 3px solid black;
@@ -437,7 +437,7 @@ header {
 .project7 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/conch.png");
+  background-image: url("./assets/images/conch.png");
   background-size: 115%;
   background-position: 60% 120%;
   border: 3px solid black;
@@ -447,7 +447,7 @@ header {
 .project8 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/workday.png");
+  background-image: url("./assets/images/workday.png");
   background-size: 320%;
   background-position: 73% 120%;
   border: 3px solid black;
@@ -457,7 +457,7 @@ header {
 .project9 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/node.png");
+  background-image: url("./assets/images/node.png");
   background-size: 145%;
   background-position: 0% 120%;
   border: 3px solid black;
@@ -467,7 +467,7 @@ header {
 .project10 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/readmepic.png");
+  background-image: url("./assets/images/readmepic.png");
   background-size: 200%;
   background-position: 0% 120%;
   border: 3px solid black;
@@ -477,7 +477,7 @@ header {
 .project2 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/budgettracker.png"); 
+  background-image: url("./assets/images/budgettracker.png"); 
   background-size: 100%;   
   background-position: 50% ;        
   border: 3px solid black;
@@ -487,7 +487,7 @@ header {
 .project11 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/jestRPG.png");
+  background-image: url("./assets/images/jestRPG.png");
   background-size: 230%;
   background-position: 0% 120%;
   border: 3px solid black;
@@ -497,7 +497,7 @@ header {
 .project12 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/techbloggr.png");
+  background-image: url("./assets/images/techbloggr.png");
   background-size: 150%;
   background-position: 55% 120%;
   border: 3px solid black;
@@ -507,7 +507,7 @@ header {
 .project13 {
   display: flex;
   flex-direction: column;
-  background-image: url("../../images/gymquest.png");
+  background-image: url("./assets/images/gymquest.png");
   background-size: 170%;
   background-position: 80% 10%;
   border: 3px solid black;
