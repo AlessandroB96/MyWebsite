@@ -34,6 +34,7 @@ function App() {
     if(currentPage === 'Projects') {
       return <Card />;
     }
+    if(currentPage === 'Contact')
     return <Contact />;
   
   };

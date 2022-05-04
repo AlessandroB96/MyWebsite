@@ -819,6 +819,38 @@ textarea {
   margin-right: 20px;
 }
 
+.contact-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  font-size: 40px;
+}
+
+.box-container-contact {
+  margin-top: 100px;
+}
+
+.email-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+  color: rgb(184, 182, 182);
+}
+
+.email-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 40px;
+  color: rgb(200, 79, 79);
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1000px) {
 
   .menu-items {
