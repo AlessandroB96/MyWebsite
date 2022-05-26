@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.58a3d992.css",
-    "main.js": "/static/js/main.5c66c957.js",
+    "main.css": "/static/css/main.fc455e4f.css",
+    "main.js": "/static/js/main.5829cc1e.js",
     "static/js/787.21d17fcb.chunk.js": "/static/js/787.21d17fcb.chunk.js",
+    "static/media/travela.jpeg": "/static/media/travela.c8282894124cef0ea7dd.jpeg",
     "static/media/hero-bg.jpg": "/static/media/hero-bg.7923f6e578ac13c09816.jpg",
     "static/media/gymquest.png": "/static/media/gymquest.3e56db8f5bf7e7bb2028.png",
     "static/media/node.png": "/static/media/node.1f5b056661a405afe2d2.png",
     "static/media/AlessandroBelaj_Resume.pdf": "/static/media/AlessandroBelaj_Resume.fe71f0a9ecafebda69c5.pdf",
     "static/media/budgettracker.png": "/static/media/budgettracker.bf5856cae5a3818f2105.png",
-    "static/media/readmepic.png": "/static/media/readmepic.b7d475e594b7b2d801db.png",
     "static/media/codequiz.png": "/static/media/codequiz.119d1ded2752843dff9b.png",
     "static/media/workday.png": "/static/media/workday.4cf818dbc494e489802a.png",
     "static/media/jestRPG.png": "/static/media/jestRPG.dd496daad39e32c5ea2a.png",
@@ -24,12 +24,12 @@
     "static/media/linkedin-1.svg": "/static/media/linkedin-1.1633a96222d704c5ee5222386dd242bd.svg",
     "static/media/download.svg": "/static/media/download.e46f4fb030b5114f193667a887db37df.svg",
     "static/media/html.svg": "/static/media/html.9f9dd4f5cf7e603eecdb841e2d67e769.svg",
-    "main.58a3d992.css.map": "/static/css/main.58a3d992.css.map",
-    "main.5c66c957.js.map": "/static/js/main.5c66c957.js.map",
+    "main.fc455e4f.css.map": "/static/css/main.fc455e4f.css.map",
+    "main.5829cc1e.js.map": "/static/js/main.5829cc1e.js.map",
     "787.21d17fcb.chunk.js.map": "/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58a3d992.css",
-    "static/js/main.5c66c957.js"
+    "static/css/main.fc455e4f.css",
+    "static/js/main.5829cc1e.js"
   ]
 }
