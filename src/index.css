@@ -112,6 +112,7 @@ header {
 
 .LI:hover , .spotify:hover , .github:hover {
   opacity: 60%;
+  transition: 0.8s;
 }
 
 #contact-content {
@@ -123,6 +124,7 @@ header {
   min-width: 45px;
   filter: invert(100%); 
   cursor: pointer;
+  transition: 0.8s;
 }
 
 .LI {
@@ -130,12 +132,14 @@ header {
   width: 32px;
   filter: invert(100%);
   cursor: pointer;
+  transition: 0.8s;
 }
 
 .spotify {
   filter: drop-shadow(1px 0px 0px black);
   filter: invert(100%);
   cursor: pointer;
+  transition: 0.8s;
 }
 
 .about-me {
@@ -467,9 +471,9 @@ header {
 .project10 {
   display: flex;
   flex-direction: column;
-  background-image: url("./assets/images/readmepic.png");
-  background-size: 200%;
-  background-position: 0% 120%;
+  background-image: url("./assets/images/travela.jpeg");
+  background-size: 155%;
+  background-position: 70% 80%;
   border: 3px solid black;
   color: black;
 }

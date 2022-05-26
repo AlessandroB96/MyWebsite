@@ -43,10 +43,10 @@ function Card() {
         },
         {
             project_number: 'project10',
-            title: 'README GENERATOR',
-            githubUrl: 'https://github.com/AlessandroB96/taskmaster-pro',
-            live_url: '',
-            description: 'Using express and npm inqurier to generate a README file'
+            title: 'TRAVELA',
+            githubUrl: 'https://github.com/AlessandroB96/Travela',
+            live_url: 'https://travelamap.herokuapp.com/',
+            description: 'MERN Stack app where users can log in, search for a city on google maps, and save itinerary information'
         },
         {
             project_number: 'project7',
