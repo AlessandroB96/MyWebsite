@@ -1,6 +1,6 @@
 import React from 'react';
 import downloadsvg from '../../src/assets/images/download.svg';
-import resume from '../../src/resume/AlessandroBelaj_Resume.pdf';
+import resume from '../../src/resume/Alessandro_Belaj_Resume.pdf';
 
 function Resume() {
     return (
